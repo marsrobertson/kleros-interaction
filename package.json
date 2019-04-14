@@ -36,12 +36,6 @@
       "@commitlint/config-conventional"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "kathari precommit",
-      "commit-msg": "kathari commitmsg"
-    }
-  },
   "devDependencies": {
     "@kleros/kathari": "^0.13.3",
     "chai": "^4.2.0",
