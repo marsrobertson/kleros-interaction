@@ -27,7 +27,9 @@
     "test:truffle": "truffle test",
     "test": "run-p test:*",
     "cz": "kathari cz",
-    "build": "truffle compile --all"
+    "build": "truffle compile --all",
+    "arbitrable-test": "truffle test test/arbitrable-token-list.js",
+    "simplified": "run-p test:ganache arbitrable-test"
   },
   "commitlint": {
     "extends": [
